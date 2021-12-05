@@ -1,3 +1,20 @@
+function announce(title,text,time)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = title;
+        Text = text;
+        Duration = time;
+    })
+end
+
+
+announce('Redware - Loader', 'Welcome to Redware!', 5)
+wait(5)
+announce('Redware - Loader', 'Running a version check.', 6)
+wait(6)
+announce('Redware - Loader', 'We are starting out services.', 7)
+wait(7)
+announce('Redware - Welcome', 'Loaded!', 8)
+wait(8)
 repeat wait() until game:IsLoaded()
 OwnerID = {
     2341657889,
@@ -5,8 +22,8 @@ OwnerID = {
 
 if table.find(OwnerID, game.Players.LocalPlayer.UserId) then
     game.StarterGui:SetCore("SendNotification", {
-    Title = "redware owner!",
-    Text = "[👑]Jaredpo",
+    Title = "Redware - Owner 👑",
+    Text = "Eymb0tsu",
     Duration = 10,
 })
 
@@ -19,8 +36,8 @@ AdminID = {
 
 if table.find(AdminID, game.Players.LocalPlayer.UserId) then
     game.StarterGui:SetCore("SendNotification", {
-    Title = "redware admin!",
-    Text = "[🌟]Devourxz",
+    Title = "Redware - Admin 🛡️",
+    Text = "Devourxz",
     Duration = 10,
 })
 
@@ -32,8 +49,8 @@ AdminID = {
 
 if table.find(AdminID, game.Players.LocalPlayer.UserId) then
     game.StarterGui:SetCore("SendNotification", {
-    Title = "redware admin!",
-    Text = "[🌟]NEGA",
+    Title = "Redware - Admin 🛡️",
+    Text = "HAHATDOGKA1011",
     Duration = 10,
 })
 
