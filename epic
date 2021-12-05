@@ -7,14 +7,14 @@ function announce(title,text,time)
 end
 
 
-announce('Redware - Loader', 'Welcome to Redware!', 5)
-wait(5)
-announce('Redware - Loader', 'Running a version check.', 5)
-wait(5)
-announce('Redware - Loader', 'We are starting out services.', 5)
-wait(5)
-announce('Redware - Welcome', 'Loaded', 5)
-wait(5)
+announce('Redware - Loader', 'Welcome to Redware!', 3)
+wait(3)
+announce('Redware - Loader', 'Running a version check.', 3)
+wait(3)
+announce('Redware - Loader', 'We are starting out services.', 3)
+wait(3)
+announce('Redware - Welcome', 'Loaded!', 3)
+wait(3)
 repeat wait() until game:IsLoaded()
 OwnerID = {
     2341657889,
