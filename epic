@@ -9,8 +9,6 @@ end
 
 announce('Redware - Loader', 'Welcome to Redware!', 3)
 wait(2)
-announce('Redware - Loader', 'Running a version check.', 3)
-wait(2)
 announce('Redware - Loader', 'We are starting our services.', 3)
 wait(2)
 announce('Redware - Welcome', 'Loaded!', 3)
